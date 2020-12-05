@@ -21,7 +21,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class MyController extends AbstractController
 {
-  public function myPage(Converter) {
+  public function myPage(Converter $converter) {
     $euroValue = $converter->convert(1.5,'BTC','EUR');
     // At the time I'm writting it this will be equal to: 23650,85
   }
