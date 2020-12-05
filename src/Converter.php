@@ -13,7 +13,6 @@ class Converter {
 
     public function __construct(iterable $providers)
     {
-
         $this->providers = $providers;
     }
 
