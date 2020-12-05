@@ -1,6 +1,7 @@
 {
     "name": "hexaequo/currency-converter-bundle",
     "description": "Bundle that allow to convert currencies and crypto currencies through differents api",
+    "license": "MIT",
     "type": "bundle",
     "require": {
         "php": "^7.4",
