@@ -1,0 +1,22 @@
+{
+    "name": "hexaequo/currency-converter-bundle",
+    "description": "Bundle that allow to convert currencies and crypto currencies through differents api",
+    "type": "bundle",
+    "require": {
+        "php": "^7.4",
+        "symfony/framework-bundle": "^5.1",
+        "symfony/http-client": "^5.1",
+        "symfony/cache": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hexaequo\\CurrencyConverterBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mike Devresse",
+            "email": "mike.devresse@hexaequo.com"
+        }
+    ]
+}
