@@ -11,7 +11,7 @@
             <argument type="collection" />
         </service>
 
-        <prototype namespace="Hexaequo\CurrencyConverterBundle\Provider\" resource="../../provider/*" />
+        <prototype namespace="Hexaequo\CurrencyConverterBundle\Provider\" resource="../../Provider/*" />
 
         <service id="Hexaequo\CurrencyConverterBundle\Converter" alias="currency_converter.converter" public="false" />
     </services>
