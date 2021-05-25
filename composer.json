@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "bundle",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "symfony/framework-bundle": "^5.1",
         "symfony/http-client": "^5.1",
         "symfony/cache": "^5.1"
